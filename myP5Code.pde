@@ -24,6 +24,18 @@ void draw(){
   ellipse(x - 50, y - 50, 30, 30); // left eyeball
   ellipse(x + 50, y - 50, 30, 30); // right eyeball
   
+fill(255,0,0)
+ellipse (x,y+20,90,50)
+
+fill(0,0,0)
+ellipse(x-50,y-50,25,10)
+ellipse(x+50,y-50,25,10)
+
+x++;
+
+if (x > 400){
+x = -10;
+}
 
 }
 
